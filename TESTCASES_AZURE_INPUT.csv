@@ -1,0 +1,9 @@
+Test,Parameter,UVLO,FAULT,AN,CA,VEE2,VOUT,VCC2,VE,LED2,Pin of Interest,MV/MI/Timing?,Lower Limit,Upper Limit,Units,Remarks
+E1,OP_VCC2,,,,,Gnd,,-0.1mA,,,VCC2,MV,-1,0.2,V,Open Short Tests of the respective pins
+E8,OP_UVLO,-0.1mA,,,,Gnd,,,,,UVLO,MV,-1,0.2,V,
+E14,OP_FAULT,,-0.1mA,,,Gnd,,,,,FAULT,MV,-1,0.2,V,
+E17,OP_ANODE,,,0.1mA,Gnd,Gnd,,,,,AN,MV,-0.2,1,V,
+E24,OP_VE,,,,,Gnd,,,-0.1mA,,VE,MV,-1,0.2,V,
+E28,OP_VOUT,,,,,Gnd,-0.1mA,,,,VOUT,MV,-1,0.2,V,
+E31,OP_LED2VEE2,,,,,Gnd,,,,0.1mA,LED2,MV,-0.2,1,V,
+E33,OP_LED2IC,,,,,Gnd,,,,-0.01mA,LED2,MV,-1,0.2,V,
